@@ -132,8 +132,17 @@ function addButtons(Menu)
             end
         end
 
+ --mg_mpapa5, mg_glock, mg_p320, mg_mike4, mg_charlie725, mg_dblmg
+
         local weaponsArr = {}
         weaponsArr[1] = {"models/weapons/w_357.mdl", "weapon_357", ".357 Magnum", "1500"}
+        weaponsArr[2] = {"models/weapons/w_mg_akilo47.mdl", "mg_akilo47", "AK-47", "2500"}
+        weaponsArr[3] = {"models/weapons/w_mg_mpapa5.mdl", "mg_mpapa5", "MP5", "2300"}
+        weaponsArr[4] = {"models/weapons/w_mg_glock.mdl", "mg_glock", "X16", "1600"} 
+        weaponsArr[5] = {"models/weapons/w_mg_p320.mdl", "mg_p320", "M19", "1650"} 
+        weaponsArr[6] = {"models/weapons/w_mg_mike4.mdl", "mg_mike4", "M4A1", "2600"} 
+        weaponsArr[7] = {"models/weapons/w_mg_charlie725.mdl", "mg_charlie725", "725", "1700"} 
+        weaponsArr[8] = {"models/weapons/w_mg_dblmg.mdl", "mg_dblmg", "MINI-GUN", "15000"} 
 
         for k, v in pairs(weaponsArr) do
             local icon = vgui.Create("SpawnIcon", weaponList)
