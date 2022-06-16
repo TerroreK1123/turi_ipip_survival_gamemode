@@ -1,0 +1,9 @@
+"ipipsurvival"
+{
+	"title"		"Turi Ip Ip Survival"
+	"base"		"base"
+	
+	"maps"		"^surv_"
+	"menusystem"	"1"
+	
+}
